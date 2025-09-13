@@ -1,5 +1,5 @@
 import React from 'react'
 
-export const Greet = () => <hi>welcome friends</hi>
+export const Greet = () => <hi>hello huzz</hi>
 
-//export default Greet
+export default Greet

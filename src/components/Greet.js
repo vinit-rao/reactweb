@@ -1,8 +1,14 @@
 import React from 'react'
 
-export const Greet = (props) => {
-    console.log(props)
-    return <h1>Howdy {props.name}</h1>
+const Greet = (props) => {
+    const {name} = props
+    return (
+        <div style={{ color: 'white' }}>
+            <h1>
+                Howdy {name}
+            </h1>
+        </div>
+    )
 }
 
 export default Greet
